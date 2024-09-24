@@ -1,0 +1,12 @@
+# Demonstração de time ...
+TIME = input("digite o seu time:")
+POSIÇÃO = int(input("digite sua posição?"))
+
+if POSIÇÃO == 1:
+    print("Campeão")
+elif POSIÇÃO > 1 and POSIÇÃO <= 6:
+    print("Libertadores !")
+elif POSIÇÃO >= 7 and POSIÇÃO <= 12:
+    print("Sul- Americana!")
+elif POSIÇÃO >= 17:
+    print("Rebaixado...")

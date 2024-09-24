@@ -1,0 +1,13 @@
+# Demonstração de eclipse solar ...
+ESTADO =input("Em qual estado do sudeste vc está(RJ/SP/MG/ES?")
+HORA = input("Qual a hora da chegada?")
+DIA =  input("o dia claro ou dia escuro(S/N?")
+
+if HORA == "15:25H" and ESTADO == "RJ" and DIA == "S":
+     print("Eclipse total!")
+elif HORA > "15:25h" and HORA > "13:30h":
+   if ESTADO == "RJ" or ESTADO == "SP" or ESTADO == "MG" or ESTADO == "ES":
+    if DIA == "S":
+        print("Eclipse Parcial")
+else: 
+    print("Não deu para ver o eclipse...")
